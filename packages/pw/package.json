@@ -1,0 +1,11 @@
+{
+  "name": "@currents/demo-pnpm",
+  "scripts": {
+    "test": "pwc --key xxx --project-id EtY1jj --ci-build-id `date +%s` --pwc-debug",
+    "test-require": "./index.js"
+  },
+  "devDependencies": {
+    "@currents/playwright": "^1.1.8",
+    "@playwright/test": "^1.43.1"
+  }
+}

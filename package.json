@@ -1,0 +1,13 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
