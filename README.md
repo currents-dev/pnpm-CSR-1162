@@ -23,7 +23,7 @@ function resolveReporter(id: string) {
 
 According to [NodeJS documentation](https://nodejs.org/api/modules.html#requireresolverequest-options), when you specify the path, it starts the module discovery from `process.cwd()` - which is, according to user-shared logs is `/Users/carlbell/dev/thryve/vscode/gloo-app/apps/frontend`
 
-It seems like the package is just simply not installed anywhere in `node_modules` directory. I tried reproducing it by renaming `@currents/pwc-scanner` in `node_modules/.pnpm` but got stuck - I can't understand how does nodejs is able to resolve the modules from `node_modules/.pnpm` (see below).
+It seems like the package is just simply not installed anywhere in `node_modules` directory. I tried reproducing it by renaming `@currents/pwc-scanner` in `node_modules/.pnpm` but got stuck - I can't get how nodejs is able to resolve the modules from `node_modules/.pnpm` (see below).
 
 ```sh
 pnpm i
